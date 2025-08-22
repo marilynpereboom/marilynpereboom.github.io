@@ -1,0 +1,40 @@
+title: "Marilyn Pereboom"
+description: "Applied economics research"
+url: "https://marilynpereboom.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+theme_skin: "default"
+
+logo: /assets/images/avatar.png
+author:
+  name: "Marilyn Pereboom"
+  avatar: "/assets/images/avatar.png"
+  bio: "Applied economics at MIT Sloan. Research, data, and policy."
+  links:
+    - label: "CV"
+      icon: "fas fa-file"
+      url: "/cv.pdf"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/marilynpereboom"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your.name@mit.edu"
+
+include:
+  - _pages
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope: {path: ""}
+    values:
+      image: /assets/images/og.jpg
